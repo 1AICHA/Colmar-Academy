@@ -183,6 +183,10 @@ li a {
   height: auto;
 }
 
+.pic .mobile {
+  display: none;
+}
+
 .pic img {
   display: block;
   width: 100%;
@@ -194,4 +198,33 @@ li a {
 
 .text p {
   padding: 1rem 0;
+}
+
+@media only screen and (max-width: 610px) {
+  .main-info {
+    display: none;
+  }
+
+  .next {
+    width: 100%;
+  }
+
+  .next .orientation {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .pic {
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+
+  .pic .mobile{
+    display: block;
+  }
+
+  .pic .desktop {
+    display: none;
+  }
 }
