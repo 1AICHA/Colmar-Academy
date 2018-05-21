@@ -1,0 +1,62 @@
+/*universal styles*/
+html {
+  font-family: helvetica;
+  font-size: 16px;
+}
+
+/*header*/
+.header {
+  height: 4rem;
+  background-color: gray;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.bar {
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+ul li {
+  padding-left: 1rem;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+.mobile{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    width: 100%;
+    display: block;
+  }
+
+  .mobile nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
