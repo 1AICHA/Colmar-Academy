@@ -7,7 +7,6 @@ html {
 /*header*/
 .header {
   height: 4rem;
-  background-color: gray;
   padding: 0 1.5rem;
   display: flex;
   align-items: center;
@@ -59,4 +58,19 @@ li a {
     justify-content: space-between;
     align-items: center;
   }
+}
+
+/*banner*/
+.frontpage{
+  background-color: gray;
+  padding: 2rem 1.5rem;
+}
+
+.banner {
+  width: 60%;
+}
+
+.banner img {
+  display: block;
+  width: 100%;
 }
