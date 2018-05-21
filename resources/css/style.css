@@ -4,6 +4,17 @@ html {
   font-size: 16px;
 }
 
+h1 {
+  font-size: 3rem;
+  padding: 1rem 0;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
 /*header*/
 .header {
   height: 4rem;
@@ -61,16 +72,36 @@ li a {
 }
 
 /*banner*/
-.frontpage{
-  background-color: gray;
+.frontpage {
+  background-color: darkgray;
   padding: 2rem 1.5rem;
+  display: flex;
 }
 
 .banner {
   width: 60%;
+  padding-right: 1.5rem;
 }
 
 .banner img {
   display: block;
   width: 100%;
+}
+
+/*caption*/
+.caption {
+  width: 30%;
+  padding: 0 1.5rem;
+}
+
+.button{
+  background-color: gray;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.frontpage .caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
