@@ -15,6 +15,18 @@ h2 {
   padding: 1rem 0;
 }
 
+h3 {
+  font-size: 1.3rem;
+}
+
+.gray{
+  background-color: darkgray;
+}
+
+.alice{
+  background-color: aliceblue;
+}
+
 /*header*/
 .header {
   height: 4rem;
@@ -71,18 +83,17 @@ li a {
 }
 
 /*banner*/
-.frontpage {
-  background-color: darkgray;
+.content {
   padding: 2rem 1.5rem;
   display: flex;
 }
 
-.banner {
+.box {
   width: 60%;
   padding-right: 1.5rem;
 }
 
-.banner img {
+.box img {
   display: block;
   width: 100%;
 }
@@ -99,7 +110,7 @@ li a {
   text-align: center;
 }
 
-.frontpage .caption {
+.content .caption {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -116,12 +127,12 @@ li a {
 }
 
 @media only screen and (max-width: 610px) {
-  .frontpage {
+  .content {
     flex-wrap: wrap;
     padding: 0;
   }
 
-  .banner {
+  .box {
     width: 100%;
     padding: 0;
   }
@@ -140,4 +151,47 @@ li a {
     padding-top: 0;
     padding-bottom: 1.5rem;
   }
+}
+
+
+/*main information*/
+.info {
+  padding: 2rem 0;
+}
+
+.info h1 {
+  padding: 0 0 1.5rem 0;
+}
+
+/*orientation*/
+.next {
+  width: 40%;
+}
+
+.next .orientation {
+  display: flex;
+  align-items: center;
+}
+
+.orientation {
+  padding: 1rem 1rem;
+  border: 1px solid gray;
+}
+
+.pic {
+  width: 35%;
+  height: auto;
+}
+
+.pic img {
+  display: block;
+  width: 100%;
+}
+
+.text{
+  padding-left: 1rem;
+}
+
+.text p {
+  padding: 1rem 0;
 }
