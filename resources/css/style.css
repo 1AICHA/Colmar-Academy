@@ -3,12 +3,15 @@ html {
   font-family: helvetica;
   font-size: 16px;
   line-height: 1.4;
+  color: #333D51;
 }
 
 h1 {
   font-size: 3rem;
   padding: 1rem 0;
   font-weight: bolder;
+  /*color: #FFDB2F;*/
+  /*color: #006B8F;*/
 }
 
 h2 {
@@ -26,8 +29,9 @@ h4 {
 }
 
 a {
-  color: black;
+  color: #333D51;
   text-decoration: none;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -39,16 +43,8 @@ a {
     font-size: 1.25rem;
   }
 
-  h3 {
-    font-size: 1rem;
-  }
-
   h4 {
     font-size: 14px;
-  }
-
-  p, a {
-    font-size: 13px;
   }
 }
 
@@ -111,7 +107,10 @@ li a {
 .first-section {
   padding: 2rem 1.5rem;
   display: flex;
-  background-color: darkgray;
+  /*background-color: #CBD0D8;*/
+  background-color: #333D51;
+  color: #D3AC2B;
+
 }
 /*banner*/
 .box {
@@ -131,7 +130,7 @@ li a {
 }
 
 .button{
-  background-color: gray;
+  background-color: #D3AC2B;
   padding: 0.5rem 0;
   text-align: center;
 }
@@ -176,12 +175,13 @@ li a {
 .second-section {
   padding: 2rem 0 2rem 1.5rem;
   display: flex;
-  background-color: aliceblue;
 }
 
 /*article*/
 .info h1 {
   padding: 2rem 0 1.5rem 0;
+  /*color: #0d5168;*/
+  color: #333D51;
 }
 
 /*right column*/
@@ -196,7 +196,6 @@ li a {
 
 .feature {
   padding: 1rem 1rem;
-  border: 1px solid gray;
 }
 
 .pic {
@@ -217,8 +216,17 @@ li a {
   padding-left: 1rem;
 }
 
+.text h3 {
+  font-weight: bold;
+}
+
 .text p {
   padding: 1rem 0;
+}
+
+.text a {
+  color: #D3AC2B;
+
 }
 
 @media only screen and (max-width: 610px) {
@@ -257,13 +265,15 @@ li a {
 /*third section*/
 .third-section {
   padding: 2rem 4.5rem;
-  background-color: darkgray;
+  background-color: #333D51;
+
 }
 
 .third-section h1 {
   text-align: center;
   padding-top: 0;
   padding-bottom: 2rem;
+  color: #D3AC2B;
 }
 
 .courses {
@@ -289,7 +299,10 @@ li a {
   padding: 1rem 1rem 1.5rem 1rem;
   background-color: white;
   height: 9rem;
+}
 
+.lessons h3 {
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 610px) {
@@ -336,7 +349,6 @@ li a {
 /*fourth section*/
 .fourth-section {
   padding: 2rem 0rem 2rem 1rem;
-  background-color: aliceblue;
 }
 
 .fourth-section h1{
@@ -355,6 +367,7 @@ li a {
 
 .info h2 {
   padding: 1.5rem 0 1rem 0;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 610px) {
@@ -385,5 +398,9 @@ footer {
 
 .left {
   padding: 1rem 0;
+}
+
+footer p {
+  font-size: 10px;
 }
 }
