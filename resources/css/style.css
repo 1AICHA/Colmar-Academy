@@ -255,14 +255,12 @@ li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .course {
   width: 25%;
   padding: 0 2rem 2rem 0;
   height: 26rem;
-
 }
 
 .course img {
@@ -278,4 +276,46 @@ li a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@media only screen and (max-width: 610px) {
+  .third-section {
+  padding: 2rem 1rem;
+  }
+
+  .third-section h1{
+    padding-bottom: 1rem;
+  }
+
+  .courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .course {
+    height: auto;
+    width: inherit;
+    padding: 0;
+  }
+
+
+  .course div img {
+    display: none;
+  }
+
+  .course div h4, .course div p {
+    display: none;
+  }
+
+  .course div h3 {
+    padding: 1rem 1rem 1.5rem 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .lessons {
+    padding: 0;
+    display: block;
+    height: inherit;
+  }
 }
