@@ -131,6 +131,12 @@ li a {
   padding: 1rem 0;
   text-align: center;
   margin: 1rem 0;
+  transition: background-color 400ms ease-in;
+}
+
+.button:hover {
+  background-color: #FFFFFF;
+  transition: background-color 400ms ease-in;
 }
 
 .first-section .caption {
@@ -287,6 +293,10 @@ li a {
   height: 40%;
 }
 
+.course:hover {
+  padding: 0;
+  border: 1rem inset #ffd700;
+}
 
 .course img {
   display: block;
@@ -326,6 +336,12 @@ li a {
     padding: 0;
   }
 
+  .course:hover{
+    padding: 0;
+    border: none;
+
+  }
+
   .course div img {
     display: none;
   }
@@ -337,6 +353,10 @@ li a {
   .course div h3 {
     padding: 1rem 1rem 1.5rem 1rem;
     margin-bottom: 1rem;
+  }
+
+  .course div h3:hover {
+    background-color: #00ff4799;
   }
 
   .lessons {
