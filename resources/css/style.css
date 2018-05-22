@@ -160,12 +160,9 @@ li a {
   background-color: aliceblue;
 }
 
-.info {
-  padding: 2rem 0;
-}
 
 .info h1 {
-  padding: 0 0 1.5rem 0;
+  padding: 2rem 0 1.5rem 0;
 }
 
 /*orientation*/
@@ -299,7 +296,6 @@ li a {
     padding: 0;
   }
 
-
   .course div img {
     display: none;
   }
@@ -318,4 +314,41 @@ li a {
     display: block;
     height: inherit;
   }
+}
+
+/*fourth section*/
+.fourth-section {
+  padding: 2rem 0rem 2rem 1rem;
+  background-color: aliceblue;
+}
+
+.fourth-section h1{
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.box video {
+  display: block;
+  width: 100%;
+}
+
+.info h2 {
+  padding: 1.5rem 0 1rem 0;
+}
+
+@media only screen and (max-width: 610px) {
+  .urban {
+    display: none;
+  }
+
+  .fourth-section {
+    padding: 2rem 0 1.5rem 0;
+  }
+
+  .fourth-section h1{
+    padding-bottom: 1rem;
 }
