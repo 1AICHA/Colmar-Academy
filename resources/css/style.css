@@ -30,6 +30,28 @@ a {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  h4 {
+    font-size: 14px;
+  }
+
+  p, a {
+    font-size: 13px;
+  }
+}
+
 /*header*/
 .header {
   height: 4rem;
@@ -120,16 +142,6 @@ li a {
   justify-content: center;
 }
 
-@media only screen and (max-width: 900px) {
-  h1 {
-    font-size: 2.0rem;
-  }
-
-  h2 {
-    font-size: 1.3rem;
-  }
-}
-
 @media only screen and (max-width: 610px) {
   .first-section {
     flex-wrap: wrap;
@@ -147,11 +159,13 @@ li a {
   }
 
   h1 {
+    font-size: 2rem;
     padding-top: 0;
     padding-bottom: 2rem;
   }
 
   h2 {
+    font-size: 1.5rem;
     padding-top: 0;
     padding-bottom: 1.5rem;
   }
@@ -259,24 +273,23 @@ li a {
 }
 
 .course {
-  width: 25%;
+  width: 30%;
   padding: 0 2rem 2rem 0;
-  height: 26rem;
+  height: 40%;
 }
+
 
 .course img {
   display: block;
-  height: auto;
+  height: 100%;
   width: 100%;
 }
 
 .lessons {
   padding: 1rem 1rem 1.5rem 1rem;
   background-color: white;
-  height: 40%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  height: 9rem;
+
 }
 
 @media only screen and (max-width: 610px) {
