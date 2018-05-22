@@ -19,14 +19,6 @@ h3 {
   font-size: 1.3rem;
 }
 
-.gray{
-  background-color: darkgray;
-}
-
-.alice{
-  background-color: aliceblue;
-}
-
 /*header*/
 .header {
   height: 4rem;
@@ -82,12 +74,13 @@ li a {
   }
 }
 
-/*banner*/
-.content {
+/*first section*/
+.first-section {
   padding: 2rem 1.5rem;
   display: flex;
+  background-color: darkgray;
 }
-
+/*banner*/
 .box {
   width: 60%;
   padding-right: 1.5rem;
@@ -110,7 +103,7 @@ li a {
   text-align: center;
 }
 
-.content .caption {
+.first-section .caption {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -127,7 +120,7 @@ li a {
 }
 
 @media only screen and (max-width: 610px) {
-  .content {
+  .first-section {
     flex-wrap: wrap;
     padding: 0;
   }
@@ -154,7 +147,13 @@ li a {
 }
 
 
-/*main information*/
+/*second section*/
+.second-section {
+  padding: 2rem 0 2rem 1.5rem;
+  display: flex;
+  background-color: aliceblue;
+}
+
 .info {
   padding: 2rem 0;
 }
@@ -201,6 +200,11 @@ li a {
 }
 
 @media only screen and (max-width: 610px) {
+
+  .second-section{
+    padding-left: 0;
+  }
+
   .main-info {
     display: none;
   }
