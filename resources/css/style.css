@@ -10,8 +10,6 @@ h1 {
   font-size: 3rem;
   padding: 1rem 0;
   font-weight: bolder;
-  /*color: #FFDB2F;*/
-  /*color: #006B8F;*/
 }
 
 h2 {
@@ -107,7 +105,6 @@ li a {
 .first-section {
   padding: 2rem 1.5rem;
   display: flex;
-  /*background-color: #CBD0D8;*/
   background-color: #333D51;
   color: #D3AC2B;
 
@@ -180,7 +177,6 @@ li a {
 /*article*/
 .info h1 {
   padding: 2rem 0 1.5rem 0;
-  /*color: #0d5168;*/
   color: #333D51;
 }
 
@@ -297,7 +293,7 @@ li a {
 
 .lessons {
   padding: 1rem 1rem 1.5rem 1rem;
-  background-color: white;
+  background-color: #FFFFFF;
   height: 9rem;
 }
 
