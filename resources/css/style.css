@@ -46,7 +46,7 @@ a {
 }
 
 /*header*/
-.header {
+header {
   height: 4rem;
   padding: 0 1.5rem;
   display: flex;
