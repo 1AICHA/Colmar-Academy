@@ -201,6 +201,10 @@ figure{
   padding: 1rem 1rem;
 }
 
+figure:hover {
+  background-color: #BDE0DE;
+}
+
 .pic {
   width: 35%;
   height: auto;
