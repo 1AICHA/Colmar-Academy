@@ -102,7 +102,7 @@ li a {
 }
 
 /*first section*/
-.first-section {
+.first{
   padding: 2rem 1.5rem;
   display: flex;
   background-color: #333D51;
@@ -139,14 +139,14 @@ li a {
   transition: background-color 400ms ease-in;
 }
 
-.first-section .caption {
+.first .caption {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 @media only screen and (max-width: 610px) {
-  .first-section {
+  .first {
     flex-wrap: wrap;
     padding: 0;
   }
@@ -176,7 +176,7 @@ li a {
 
 
 /*second section*/
-.second-section {
+.second{
   padding: 2rem 0 2rem 1.5rem;
   display: flex;
 }
@@ -192,12 +192,12 @@ li a {
   width: 40%;
 }
 
-.column .feature {
+.column figure {
   display: flex;
   align-items: center;
 }
 
-.feature {
+figure{
   padding: 1rem 1rem;
 }
 
@@ -235,11 +235,11 @@ li a {
 }
 
 @media only screen and (max-width: 610px) {
-  .second-section{
+  .second{
     padding-left: 0;
   }
 
-  .article {
+  article {
     display: none;
   }
 
@@ -247,7 +247,7 @@ li a {
     width: 100%;
   }
 
-  .column .feature {
+  .column figure {
     flex-direction: column;
     align-items: flex-start;
   }
@@ -268,13 +268,13 @@ li a {
 }
 
 /*third section*/
-.third-section {
+.third {
   padding: 2rem 4.5rem;
   background-color: #333D51;
 
 }
 
-.third-section h1 {
+.third h1 {
   text-align: center;
   padding-top: 0;
   padding-bottom: 2rem;
@@ -316,11 +316,11 @@ li a {
 }
 
 @media only screen and (max-width: 610px) {
-  .third-section {
+  .third {
   padding: 2rem 1rem;
   }
 
-  .third-section h1{
+  .third h1{
     padding-bottom: 1rem;
   }
 
@@ -367,11 +367,11 @@ li a {
 }
 
 /*fourth section*/
-.fourth-section {
+.fourth {
   padding: 2rem 0rem 2rem 1rem;
 }
 
-.fourth-section h1{
+.fourth h1{
   padding-bottom: 2rem;
   text-align: center;
 }
@@ -395,11 +395,11 @@ li a {
     display: none;
   }
 
-  .fourth-section {
+  .fourth {
     padding: 2rem 0 1.5rem 0;
   }
 
-  .fourth-section h1{
+  .fourth h1{
     padding-bottom: 1rem;
   }
 }
